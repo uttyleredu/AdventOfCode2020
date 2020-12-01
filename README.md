@@ -6,4 +6,4 @@ This is a repository where Patriots can submit solutions for [Advent of Code](ht
 ## Folder structure
 input.txt for each day
 
-Day #\Part #\Language
+Day #\Language\Part #
