@@ -10,7 +10,12 @@ namespace AdventOfCode2020
     {
         static void Main(string[] args)
         {
-            string[] nums = System.IO.File.ReadAllLines(@"C:\Users\jmcquigg\source\repos\Day1\AdventOfCode2020\Numbers.txt");
+            if (!File.Exists($args[0]))
+            {
+                Console.WriteLine("File does not exist. Exiting.")
+                System.Environment.Exit(1);
+            }
+            string[] nums = System.IO.File.ReadAllLines(args[0]);
 
             int[] ints = Array.ConvertAll(nums, int.Parse);
 
