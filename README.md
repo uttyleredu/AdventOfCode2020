@@ -1,4 +1,4 @@
-# AdventOfCode2020
+# Advent Of Code 2020
 ## What is this?
 This is a repository where Patriots can submit solutions for [Advent of Code](https://adventofcode.com/) problems. Our leaderboard code is 1035299-622fe917. Join [here](https://adventofcode.com/2020/leaderboard/private).
 ## How do I submit code?
