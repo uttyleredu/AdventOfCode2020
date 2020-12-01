@@ -12,15 +12,14 @@ begin {
 process {
     foreach ($num in $List){
         $num = [int]$num
-        $dif = ($Target-$num)
+        $dif = $Target-$num
         if ($list -contains $dif)
         {
             if ($Target -eq 2020) {
-                $product = $num*$dif
+                return $num*$dif
             } else {
-                $product = (2020-$Target)*$num*$dif
+                return (2020-$Target)*$num*$dif
             }
-            return $product
         }
     }
 }
